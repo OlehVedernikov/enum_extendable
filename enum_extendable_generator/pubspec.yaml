@@ -1,5 +1,5 @@
 name: enum_extendable_generator
-version: 0.1.0
+version: 0.1.1
 description: >-
   Allows you to add fields and methods to enums. Generates code for extensions on enums.
 repository: https://github.com/OlehVedernikov/enum_extendable
