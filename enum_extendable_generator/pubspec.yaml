@@ -14,4 +14,4 @@ dependencies:
   source_gen: ^1.1.1
   collection: ^1.15.0
 
-  enum_extendable_annotation: ^0.1.0
+  enum_extendable_annotation: ^0.1.1
