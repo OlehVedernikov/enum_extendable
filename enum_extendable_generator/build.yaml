@@ -1,0 +1,26 @@
+targets:
+  $default:
+    builders:
+      enum_extendable_generator:
+        enabled: true
+        generate_for:
+          - example/lib/*
+
+
+builders:
+  enum_extendable_generator:
+    import: "package:enum_extendable_generator/builder.dart"
+    builder_factories: ["enumExtendable"]
+    build_extensions: {".dart": [".enum_extendable.g.part"]}
+    auto_apply: dependents
+    build_to: source
+    applies_builders: ["source_gen|combining_builder"]
+#
+#    builders:
+#      freezed:
+#        import: "package:freezed/builder.dart"
+#        builder_factories: [ "freezed" ]
+#        build_extensions: { ".dart": [ ".freezed.dart" ] }
+#        auto_apply: dependents
+#        build_to: source
+#        runs_before: [ "json_serializable|json_serializable" ]

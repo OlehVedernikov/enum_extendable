@@ -1,0 +1,12 @@
+name: enum_extendable_annotation
+version: 0.1.0
+description: >-
+  Classes and helper functions that support extensions on enum code generation
+  via the `enum_extendable` package.
+repository: https://github
+  .com/olehvedernikov/enum_extendable/enum_extendable_annotation
+environment:
+  sdk: '>=2.14.0 <3.0.0'
+
+dependencies:
+  meta: ^1.4.0
