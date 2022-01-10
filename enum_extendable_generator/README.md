@@ -239,4 +239,4 @@ The default value is `true`.
 
 
 ## **Live Templates**
-Find the live template for Android studio [here](https://github.com/OlehVedernikov/enum_extendable/live_templates)
+Find the live template for Android studio [here](https://github.com/OlehVedernikov/enum_extendable/tree/master/live_templates)
