@@ -236,3 +236,7 @@ Any field of the PODO class can be annotated with `ExtendableEnumField`. This an
 The default value is `true`.
 - `bool classExtension` - set `false` if you **don't** want to generate methods for a class (and Iterable of this class) of this field.\
 The default value is `true`.
+
+
+## **Live Templates**
+Find the live template for Android studio [here](https://github.com/OlehVedernikov/enum_extendable/live_templates)
